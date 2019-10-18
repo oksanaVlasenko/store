@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shoes Store</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_fonts.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <a href="1_home.html"><img src="img/sh.jpg" alt="header_logo"></a>
+        </div>       
+        <nav class="nav">
+            <ul class="header-menu">
+                <li><a href="2_category-all.html">Woman</a></li>
+                <li><a href="2_category-all.html">Men</a></li>
+                <li><a href="2_category-all.html">Kids</a></li>
+                <li><a href="2_category-all.html">Coming Soon</a></li>
+            </ul>
+        </nav>
+        <form action="2_category-all.html" target="_blank" class="form-search">
+            <input type="hidden" name="searchlink" value="">
+            <input id="search_place" class="search" type="search" name="text" required placeholder="Search something...">
+            <input id="submit" onclick="showhide(mydiv)" class="submits" type="image" src="img/s2.png">
+        </form>
+        <div class="basket">
+            <a href="4_shopping-bag.html"><img src="img/basket.jpg" alt="basket_logo"></a>
+            <span>Basket</span>
+        </div>
+        <hr class="separation"> 
+    </header>
+    <main class="main">
+        <div class="bread">
+            <ul class="breadcrumb">
+                <li><a href="1_home.html" target="_blank">Home</a></li> 
+                <li><a href="2_category-all.html">Men</a></li>
+                <li><a href="1_home.html" target="_blank">Shoes</a></li>
+                <li class="active"><a href="1_home.html" target="_blank">floral plimsoll</a></li>
+            </ul>
+        </div>
+        <section class="basket">
+            <h2>your shopping bag</h2>
+            <p>Items reserved for limited time only </p>
+
+            <div class="shop_bag" id="shop_bag">
+                <div class="head_bag">
+                    <p>product</p>
+                    <div class="r2">
+                        <p>description</p>
+                    </div>
+                    <div class="lin">
+                        <p>color</p>
+                    </div>
+                    <div>
+                        <p>size</p>
+                    </div>
+                    <div>
+                        <p>qty</p>
+                    </div>
+                    <div>
+                        <p>amount</p>
+                    </div>
+                    <div>
+                         <p>delete</p>
+                    </div>                 
+                </div>
+                <hr class="separation3">
+                <div class="item_bag">
+                    <div>
+                        <img class="img_bag" src="img/shoes1.jpg" alt="shoes" width="100px" height="100px">
+                    </div>
+                    <div class="r">
+                        <h3 class="headline">floral plimsoll</h3>
+                        <p class="p_bag">Ref.2514/302</p>
+                    </div>
+                    <div class="d">
+                        <p class="colors">Black</p>
+                    </div>
+                    <div class="size_bag">
+                        <p>39</p>
+                    </div>
+                    <div class="choose_bag">  
+                        <input class="val" type="text" name="name" value="1">                
+                        <button class="plus-btn" type="button" name="button">
+                            <img src="img/icons8-шеврон-вверх-24.png" alt="up" />
+                        </button>  
+                         
+                        <button class="minus-btn" type="button" name="button">
+                            <img src="img/icons8-шеврон-вниз-24.png" alt="down" />
+                            
+                        </button>
+                        
+                    </div>
+                    <div class="price_bag">
+                        <p> € 99.95</p>
+                    </div>
+                    <div class="close_bag">
+                        <img src="img/close.png" alt="close">
+                    </div>
+                </div>
+                <hr class="separation3">
+                <div class="item_bag">
+                    <div>
+                        <img class="img_bag" src="img/wear4.jpeg" alt="shoes" width="100px" height="100px">
+                    </div>
+                    <div class="r">
+                        <h3 class="headline">floral plimsoll</h3>
+                        <p class="p_bag">Ref.2514/302</p>
+                    </div>
+                    <div>
+                        <p class="color">One color</p>
+                    </div>
+                    <div class="size_bag">
+                        <p >M</p>
+                    </div>
+                    <div class="choose_bag">  
+                        <input class="val" type="text" name="name" value="1">                 
+                        <button class="plus-btn" type="button" name="button">
+                            <img src="img/icons8-шеврон-вверх-24.png" alt="up" />
+                        </button>  
+                            
+                        <button class="minus-btn" type="button" name="button">
+                            <img src="img/icons8-шеврон-вниз-24.png" alt="down" />
+                            
+                        </button>
+                        
+                    </div>
+                    <div class="price_bag">
+                        <p>€ 99.95</p>
+                    </div>
+                    <div class="close_bag">
+                        <img src="img/close.png" alt="close">
+                    </div>
+                </div>
+                <hr class="separation3">
+                <div class="item_bag">
+                    <div>
+                        <img class="img_bag" src="img/coat2.jpg" alt="shoes" width="100px" height="100px">
+                    </div>
+                    <div class="r">
+                        <h3 class="headline">floral plimsoll</h3>
+                        <p class="p_bag">Ref.2514/302</p>
+                    </div>
+                    <div>
+                        <p class="color">One color</p>
+                    </div>
+                    <div class="size_bag">
+                        <p >S</p>
+                    </div>
+                    <div class="choose_bag">
+                         <input class="val" type="text" name="name" value="1">                  
+                        <button class="plus-btn" type="button" name="button">
+                            <img src="img/icons8-шеврон-вверх-24.png" alt="up" />
+                        </button>  
+                            
+                        <button class="minus-btn" type="button" name="button">
+                            <img src="img/icons8-шеврон-вниз-24.png" alt="down" />
+                            
+                        </button>
+                        
+                    </div>
+                    <div class="price_bag">
+                        <p >€ 99.95</p>
+                    </div>
+                    <div class="close_bag">
+                        <img src="img/close.png" alt="close">
+                    </div>
+                </div>
+                <hr class="separation3 sep">
+            </div>
+            <div class="subtotal">
+                <p class="total">Subtotal: </p>
+                <p class="price_b">€ 299,85</p>
+            </div>
+            <div class="continue">
+                <div class="cont_a">
+                    <a href="1_home.html">Continue Shopping</a>
+                </div>
+                <a href="thank-you.html" target="_blank">
+                    <button type="submit" id="continue-btn">Order now</button>
+                </a>
+                
+                
+            </div>
+            <hr class="separation3 sw">
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="item vis">
+            <h3>Collection</h3>
+            <p>Woman</p> 
+            <p>Men</p>
+            <p>Kids</p>
+            <p>Coming soon</p>
+        </div>
+        <div class="item bord bord2 vis">
+            <h3>Site</h3>
+            <p>Terms of Service</p> 
+            <p>Privacy Policy</p>
+            <p>Copyright Policy</p>
+            <p>Press Kit</p>
+            <p>Support</p>
+        </div>
+        <div class="item bord vis">
+            <h3>Shop</h3>
+            <p>About us</p> 
+            <p>Shipping Metods</p>
+            <p>Career</p>
+            <p>Contact </p>
+        </div>
+        <div class="item bord">
+            <h3>social</h3>
+            <p>Shoper is made with love in Warsaw,  </p> 
+            <p>2014 © All rights reserved. El Passion</p>
+            <div class="icon">
+                <div class="around">
+                    <img src="img/twit1.png" alt="twitter">
+                </div>
+                <div class="around">
+                    <img src="img/face.png" alt="facebook">
+                </div>
+                <div class="around">
+                    <img src="img/inst.png" alt="instagram">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="lib/js/common.js"></script>
+</body>
+</html>

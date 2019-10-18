@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shoes Store</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_fonts.css"/>
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <a href="1_home.html"><img src="img/sh.jpg" alt="header_logo"></a>
+        </div>
+        
+        <nav class="nav">
+            <ul class="header-menu">
+                <li><a href="2_category-all.html">Woman</a></li>
+                <li><a href="2_category-all.html">Men</a></li>
+                <li><a href="2_category-all.html">Kids</a></li>
+                <li><a href="2_category-all.html">Coming Soon</a></li>
+            </ul>
+        </nav>
+        <form action="2_category-all.html" target="_blank" class="form-search">
+            <input type="hidden" name="searchlink" value="">
+            <input id="search_place" class="search" type="search" name="text" required placeholder="Search something...">
+            <input id="submit" onclick="showhide(mydiv)" class="submits" type="image" src="img/s2.png">
+        </form>
+        <div class="basket">
+            <a href="4_shopping-bag.html"><img src="img/basket.jpg" alt="basket_logo"></a>
+            <span>Basket</span>
+        </div>
+        <hr class="separation">
+    </header>
+    <main>
+        <div class="bread">
+            <ul class="breadcrumb">
+                <li><a href="1_home.html" target="_blank">Home</a></li> 
+                <li><a href="2_category-all.html">Men</a></li>
+                <li><a href="1_home.html" target="_blank">Shoes</a></li>
+                <li class="active"><a href="1_home.html" target="_blank">floral plimsoll</a></li>
+            </ul>
+        </div>
+        <section>
+            <div class="cont">
+                <div class="full-img">
+                  <img class="displayed-img" id="largeImg" src="img/shoes1.jpg" alt="Large image" data-object-fit="contain">  
+                  <div class="overlay" style="background-color: rgba(0, 0, 0, 0.5);"></div>          
+                </div>
+                <div class="thumb-bar">
+                    <ul id="thumbs">
+                        <li class="lis">
+                            <img class="im" id="1" src="img/shoes1.jpg" alt="shoes img" data-object-fit="contain">
+                        </li>
+                        <li class="lis">
+                            <img class="im" id="2" src="img/shoes2.jpg" alt="shoes img" data-object-fit="contain">
+                        </li>
+                        <li class="lis">
+                            <img class="im" id="3" src="img/shoes3.jpg" alt="shoes img" data-object-fit="contain">
+                        </li>
+                        <li class="lis">
+                            <img class="im" id="4" src="img/shoes4.jpg" alt="shoes img" data-object-fit="contain">
+                        </li>                  
+                    </ul>
+                </div>
+              </div>
+        </section>
+        <section>
+            <div class="product_desc">
+                <h2> floral plimsoll</h2>
+                <p class="article">Article number: 14210160762</p>
+                <p class="price">&#8364; 99,95</p>
+                <p class="art_desc">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. <br>
+                        Maecenas malesuada elit lectus felis, malesuada ultricies. </p>
+                <p class="size">size</p>
+                <ul class="size_select" id="list_size">
+                    <li class="li_size">
+                        <p>38</p>
+                    </li>
+                    <li class="li_size">
+                        <p>39</p>
+                    </li>
+                    <li class="li_size">
+                        <p>40</p>
+                    </li>
+                    <li class="li_size">
+                        <p>41</p>
+                    </li>
+                    <li class="li_size">
+                        <p>42</p>
+                    </li>
+                </ul>
+            <div class="subm">
+                <button class="bef" id="btn-sub" type="submit" value="add to cart" ></button>
+
+            </div>
+            </div>
+        </section>
+
+        <section class="gallerys1">
+            <p>Check our lookbook</p>
+            <div id="carousel" class="carousel">
+                <button class="prev" value="prev">&lt;</button>
+                <button class="next" value="next" name="next">&gt;</button>
+                <div id="content">
+                    <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus4.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus5.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus6.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus7.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus8.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus9.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus10.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus11.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus12.jpeg" alt="photos"></a></div>
+                    <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus14.jpeg" alt="photos"></a></div>
+                    <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus2.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus3.jpg" alt="photos"></a></div>
+                </div>               
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="item vis">
+            <h3>Collection</h3>
+            <p>Woman</p> 
+            <p>Men</p>
+            <p>Kids</p>
+            <p>Coming soon</p>
+        </div>
+        <div class="item bord bord2 vis">
+            <h3>Site</h3>
+            <p>Terms of Service</p> 
+            <p>Privacy Policy</p>
+            <p>Copyright Policy</p>
+            <p>Press Kit</p>
+            <p>Support</p>
+        </div>
+        <div class="item bord vis">
+            <h3>Shop</h3>
+            <p>About us</p> 
+            <p>Shipping Metods</p>
+            <p>Career</p>
+            <p>Contact </p>
+        </div>
+        <div class="item bord">
+            <h3>social</h3>
+            <p>Shoper is made with love in Warsaw,  </p> 
+            <p>2014 © All rights reserved. El Passion</p>
+            <div class="icon">
+                <div class="around">
+                    <img src="img/twit1.png" alt="twitter">
+                </div>
+                <div class="around">
+                    <img src="img/face.png" alt="facebook">
+                </div>
+                <div class="around">
+                    <img src="img/inst.png" alt="instagram">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="lib/js/common.js"></script>
+</body>

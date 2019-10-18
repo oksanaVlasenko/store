@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shoes Store</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_fonts.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <a href="1_home.html"><img src="img/sh.jpg" alt="header_logo"></a>
+        </div>       
+        <nav class="nav">
+            <ul class="header-menu">
+                <li><a href="2_category-all.html">Woman</a></li>
+                <li><a href="2_category-all.html">Men</a></li>
+                <li><a href="2_category-all.html">Kids</a></li>
+                <li><a href="2_category-all.html">Coming Soon</a></li>
+            </ul>
+        </nav>
+        <form action="2_category-all.html" target="_blank" class="form-search">
+            <input type="hidden" name="searchlink" value="">
+            <input id="search_place" class="search" type="search" name="text" required placeholder="Search something...">
+            <input id="submit" onclick="showhide(mydiv)" class="submits" type="image" src="img/s2.png">
+        </form>
+        <div class="basket">
+            <a href="4_shopping-bag.html"><img src="img/basket.jpg" alt="basket_logo"></a>
+            <span>Basket</span>
+        </div>
+        <hr class="separation"> 
+    </header>
+    <main>
+        <section class="thant_you">
+           <h1>order sent!</h1>
+           <p>Thank you, and happy shopping :)</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="item vis">
+            <h3>Collection</h3>
+            <p>Woman</p> 
+            <p>Men</p>
+            <p>Kids</p>
+            <p>Coming soon</p>
+        </div>
+        <div class="item bord bord2 vis">
+            <h3>Site</h3>
+            <p>Terms of Service</p> 
+            <p>Privacy Policy</p>
+            <p>Copyright Policy</p>
+            <p>Press Kit</p>
+            <p>Support</p>
+        </div>
+        <div class="item bord vis">
+            <h3>Shop</h3>
+            <p>About us</p> 
+            <p>Shipping Metods</p>
+            <p>Career</p>
+            <p>Contact </p>
+        </div>
+        <div class="item bord">
+            <h3>social</h3>
+            <p>Shoper is made with love in Warsaw,  </p> 
+            <p>2014 © All rights reserved. El Passion</p>
+            <div class="icon">
+                <div class="around">
+                    <img src="img/twit1.png" alt="twitter">
+                </div>
+                <div class="around">
+                    <img src="img/face.png" alt="facebook">
+                </div>
+                <div class="around">
+                    <img src="img/inst.png" alt="instagram">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="lib/js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "final_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "../src/js/common.js",
+  "dependencies": {},
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "targets": {
+    "ie": "11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6"
+  },
+  "author": "",
+  "license": "ISC"
+}

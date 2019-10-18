@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shoes Store</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_fonts.css"/>
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <a href="1_home.html"><img src="img/sh.jpg" alt="header_logo"></a>
+        </div>
+        
+        <nav class="nav">
+            <ul class="header-menu">
+                <li><a href="2_category-all.html">Woman</a></li>
+                <li><a href="2_category-all.html">Men</a></li>
+                <li><a href="2_category-all.html">Kids</a></li>
+                <li><a href="2_category-all.html">Coming Soon</a></li>
+            </ul>
+        </nav>
+            <form action="2_category-all.html" target="_blank" class="form-search">
+                <input type="hidden" name="searchlink" value="">
+                <input id="search_place" class="search" type="search" required placeholder="Search something...">
+                <input id="submit" onclick="showhide(serc)" class="submits" type="image" src="img/s2.png">
+                
+            </form>
+
+        <div class="basket">
+            <a href="4_shopping-bag.html"><img src="img/basket.jpg" alt="basket_logo"></a>
+            <span>Basket</span>
+        </div>
+        
+        <hr class="separation">
+        
+    </header>
+    <main>
+        <article>
+            <div class="main_section">
+                <h1>Hazy Shade of spring</h1>
+                <p>Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo</p>
+                <button class="arrivals">Check new arrivals</button>
+            </div>
+        <section class="gallery" id="gallerys">
+            <div class="container" id="container">
+                <div class="card">
+                    <a class="card_a" href="2_category-all.html" target="_blank">
+                        <img class="card_img" src="img/1.png" alt="photos">
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="card_a" href="3_product-details.html" target="_blank">
+                        <img  class="card_img" src="img/2.png" alt="photos">
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="card_a" href="2_category-all.html" target="_blank">
+                        <img class="card_img" src="img/3.png" alt="photos">
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="card_a" href="3_product-details.html" target="_blank">
+                        <img class="card_img" src="img/4.png" alt="photos">
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="card_a" href="2_category-all.html" target="_blank">
+                        <img class="card_img" src="img/5.png" alt="photos">
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="card_a" href="3_product-details.html" target="_blank">
+                        <img class="card_img" src="img/6.png" alt="photos">
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="card_a" href="2_category-all.html" target="_blank">
+                        <img class="card_img" src="img/7.png" alt="photos">
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="card_a" href="3_product-details.html" target="_blank">
+                        <img class="card_img" src="img/8.png" alt="photos">
+                    </a>
+                </div>  
+            </div>
+        </section>
+        <section class="registration">
+            <h2>sign up to receive our updates</h2>
+            <p>Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat.</p>
+            <form action="/" target="_blank" class="form-regist">
+                <input id="regist_place" class="regist" type="email" name="text" required placeholder="Your e-mail">
+                <input id="submit"  class="submit" type="image" src="img/add.jpg">
+            </form>
+            
+        </section>
+        <section class="gallerys1">
+            <div id="carousel" class="carousel">
+                <button class="prev" value="prev">&lt;</button>
+                <button class="next" value="next" name="next">&gt;</button>
+                <div id="content">
+                        <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus4.jpg" alt="photos"></a></div>
+                        <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus5.jpg" alt="photos"></a></div>
+                        <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus6.jpg" alt="photos"></a></div>
+                        <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus7.jpg" alt="photos"></a></div>
+                        <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus8.jpg" alt="photos"></a></div>
+                        <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus9.jpg" alt="photos"></a></div>
+                        <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus10.jpg" alt="photos"></a></div>
+                        <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus11.jpg" alt="photos"></a></div>
+                        <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus12.jpeg" alt="photos"></a></div>
+                        <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus14.jpeg" alt="photos"></a></div>
+                        <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus2.jpg" alt="photos"></a></div>
+                        <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus3.jpg" alt="photos"></a></div>
+                </div>               
+            </div>
+        </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="item vis">
+            <h3>Collection</h3>
+            <p>Woman</p> 
+            <p>Men</p>
+            <p>Kids</p>
+            <p>Coming soon</p>
+        </div>
+        <div class="item bord bord2 vis">
+            <h3>Site</h3>
+            <p>Terms of Service</p> 
+            <p>Privacy Policy</p>
+            <p>Copyright Policy</p>
+            <p>Press Kit</p>
+            <p>Support</p>
+        </div>
+        <div class="item bord vis">
+            <h3>Shop</h3>
+            <p>About us</p> 
+            <p>Shipping Metods</p>
+            <p>Career</p>
+            <p>Contact </p>
+        </div>
+        <div class="item bord">
+            <h3>social</h3>
+            <p>Shoper is made with love in Warsaw,  </p> 
+            <p>2014 © All rights reserved. El Passion</p>
+            <div class="icon">
+                <div class="around">
+                    <img src="img/twit1.png" alt="twitter">
+                </div>
+                <div class="around">
+                   <img src="img/face.png" alt="facebook">
+                </div>
+                <div class="around">
+                    <img src="img/inst.png" alt="instagram">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="lib/js/common.js"></script>
+</body>
+
+
+</html>

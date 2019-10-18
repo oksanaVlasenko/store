@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shoes Store</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_fonts.css"/>
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <a href="1_home.html"><img src="img/sh.jpg" alt="header_logo"></a>
+        </div>
+        
+        <nav class="nav">
+            <ul class="header-menu">
+                <li><a href="2_category-all.html">Woman</a></li>
+                <li><a href="2_category-all.html">Men</a></li>
+                <li><a href="2_category-all.html">Kids</a></li>
+                <li><a href="2_category-all.html">Coming Soon</a></li>
+            </ul>
+        </nav>
+        <form action="2_category-all.html" target="_blank" class="form-search">
+            <input type="hidden" name="searchlink" value="">
+            <input id="search_place" class="search" type="search" name="text" required placeholder="Search something...">
+            <input id="submit" onclick="showhide(serc)" class="submits" type="image" src="img/s2.png">
+        </form>
+        <div class="basket">
+            <a href="4_shopping-bag.html"><img src="img/basket.jpg" alt="basket_logo"></a>
+            <span>Basket</span>
+        </div>
+        <hr class="separation">
+    </header>
+    <main>
+        <div class="bread">
+            <ul class="breadcrumb">
+                <li><a href="1_home.html" target="_blank">Home</a></li> 
+                <li class="active"><a href="2_category-all.html">Men</a></li>
+            </ul>
+        </div>
+        <section class="coats">
+            <h2>coats</h2>
+            <div class="coatcont">
+                <div class="all">
+                    <div class="coatcard">
+                        <a href="3_product-details.html" target="_blank">
+                            <img class="coat_img1" src="img/coat1.jpg" alt="coat photo">
+                        </a>
+                    </div>
+                    <div class="desc_coat">
+                        <a href="3_product-details.html" target="_blank">
+                            <p>Double-Layered Top</p>
+                        </a>
+                        <a href="3_product-details.html" target="_blank">
+                            <p class="price">666.99 $</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="all">
+                    <div class="coatcard">
+                        <a href="3_product-details.html" target="_blank">
+                            <img class="coat_img2" src="img/coat2.jpg" alt="coat photo">
+                        </a>
+                    </div>
+                    <div class="desc_coat">
+                         <a href="3_product-details.html" target="_blank">
+                            <p>Double-Layered Top</p>
+                        </a>
+                        <a href="3_product-details.html" target="_blank">
+                            <p class="price">666.99 $</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="all">
+                    <div class="coatcard">
+                        <a href="3_product-details.html" target="_blank">
+                            <img  class="coat_img3" src="img/coat4.jpg" alt="coat photo">
+                        </a>
+                    </div>
+                    <div class="desc_coat">
+                        <a href="3_product-details.html" target="_blank">
+                            <p>Some Product Name</p>
+                        </a>
+                        <a href="3_product-details.html" target="_blank">
+                            <p class="price">666.99 $</p>
+                        </a>
+                    </div>
+                </div>    
+                <div class="all">
+                    <div class="coatcard">
+                        <a href="3_product-details.html" target="_blank">
+                            <img class="coat_img4" src="img/coat3.jpg" alt="coat photo">
+                        </a>
+                    </div>
+                    <div class="desc_coat">
+                         <a href="3_product-details.html" target="_blank">
+                            <p>Some Product Name</p>
+                        </a>
+                        <a href="3_product-details.html" target="_blank">
+                            <p class="price">666.99 $</p>
+                        </a>
+                    </div>
+                </div>      
+            </div>
+        </section>
+        <hr class="separation2">
+
+        <section class="coats">
+            <h2>outerwear</h2>
+            <div class="coatcont">
+                <div class="all">
+                    <div class="coatcard">
+                        <a href="3_product-details.html" target="_blank">
+                            <img class="coat_img1" src="img/wear1.jpg" alt="coat photo">
+                        </a>
+                    </div>
+                    <div class="desc_coat">
+                        <a href="3_product-details.html" target="_blank">
+                            <p>Double-Layered Top</p>
+                        </a>
+                        <a href="3_product-details.html" target="_blank">
+                            <p class="price">666.99 $</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="all">
+                    <div class="coatcard">
+                        <a href="3_product-details.html" target="_blank">
+                            <img class="coat_img2" src="img/wear2.jpeg" alt="coat photo">
+                        </a>
+                    </div>
+                    <div class="desc_coat">
+                         <a href="3_product-details.html" target="_blank">
+                            <p>Double-Layered Top</p>
+                        </a>
+                        <a href="3_product-details.html" target="_blank">
+                            <p class="price">666.99 $</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="all">
+                    <div class="coatcard">
+                        <a href="3_product-details.html" target="_blank">
+                            <img  class="coat_img3" src="img/wear4.jpeg" alt="coat photo">
+                        </a>
+                    </div>
+                    <div class="desc_coat">
+                        <a href="3_product-details.html" target="_blank">
+                            <p>Some Product Name</p>
+                        </a>
+                        <a href="3_product-details.html" target="_blank">
+                            <p class="price">666.99 $</p>
+                        </a>
+                    </div>
+                </div>    
+                <div class="all">
+                    <div class="coatcard">
+                        <a href="3_product-details.html" target="_blank">
+                            <img class="coat_img4" src="img/wear4.jpg" alt="coat photo">
+                        </a>
+                    </div>
+                    <div class="desc_coat">
+                         <a href="3_product-details.html" target="_blank">
+                            <p>Some Product Name</p>
+                        </a>
+                        <a href="3_product-details.html" target="_blank">
+                            <p class="price">666.99 $</p>
+                        </a>
+                    </div>
+                </div>      
+            </div>
+        </section>
+        <hr class="separation2">
+
+        <section class="coats">
+            <h2>t-shirts</h2>
+            <div class="coatcont">
+                <div class="all">
+                    <div class="coatcard">
+                        <a href="3_product-details.html" target="_blank">
+                            <img class="coat_img1" src="img/tsh1.jpg" alt="coat photo">
+                        </a>
+                    </div>
+                    <div class="desc_coat">
+                        <a href="3_product-details.html" target="_blank">
+                            <p>Double-Layered Top</p>
+                        </a>
+                        <a href="3_product-details.html" target="_blank">
+                            <p class="price">666.99 $</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="all">
+                    <div class="coatcard">
+                        <a href="3_product-details.html" target="_blank">
+                            <img class="coat_img2" src="img/tsh2.jpg" alt="coat photo">
+                        </a>
+                    </div>
+                    <div class="desc_coat">
+                         <a href="3_product-details.html" target="_blank">
+                            <p>Double-Layered Top</p>
+                        </a>
+                        <a href="3_product-details.html" target="_blank">
+                            <p class="price">666.99 $</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="all">
+                    <div class="coatcard">
+                        <a href="3_product-details.html" target="_blank">
+                            <img  class="coat_img3" src="img/tsh3.jpg" alt="coat photo">
+                        </a>
+                    </div>
+                    <div class="desc_coat">
+                        <a href="3_product-details.html" target="_blank">
+                            <p>Some Product Name</p>
+                        </a>
+                        <a href="3_product-details.html" target="_blank">
+                            <p class="price">666.99 $</p>
+                        </a>
+                    </div>
+                </div>    
+                <div class="all">
+                    <div class="coatcard">
+                        <a href="3_product-details.html" target="_blank">
+                            <img class="coat_img4" src="img/tsh4.jpg" alt="coat photo">
+                        </a>
+                    </div>
+                    <div class="desc_coat">
+                         <a href="3_product-details.html" target="_blank">
+                            <p>Some Product Name</p>
+                        </a>
+                        <a href="3_product-details.html" target="_blank">
+                            <p class="price">666.99 $</p>
+                        </a>
+                    </div>
+                </div>      
+            </div>
+        </section>
+        <hr class="separation2">
+        
+
+        
+        <section class="gallerys1">
+            <p>Check our lookbook</p>
+            <div id="carousel" class="carousel">
+                <button class="prev" value="prev">&lt;</button>
+                <button class="next" value="next" name="next">&gt;</button>
+                <div id="content">
+                    <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus4.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus5.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus6.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus7.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus8.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus9.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus10.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus11.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus12.jpeg" alt="photos"></a></div>
+                    <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus14.jpeg" alt="photos"></a></div>
+                    <div class="lis"><a href="2_category-all.html" target="_blank"><img src="img/carus2.jpg" alt="photos"></a></div>
+                    <div class="lis"><a href="3_product-details.html" target="_blank"><img src="img/carus3.jpg" alt="photos"></a></div>
+                </div>               
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="item vis">
+            <h3>Collection</h3>
+            <p>Woman</p> 
+            <p>Men</p>
+            <p>Kids</p>
+            <p>Coming soon</p>
+        </div>
+        <div class="item bord bord2 vis">
+            <h3>Site</h3>
+            <p>Terms of Service</p> 
+            <p>Privacy Policy</p>
+            <p>Copyright Policy</p>
+            <p>Press Kit</p>
+            <p>Support</p>
+        </div>
+        <div class="item bord vis">
+            <h3>Shop</h3>
+            <p>About us</p> 
+            <p>Shipping Metods</p>
+            <p>Career</p>
+            <p>Contact </p>
+        </div>
+        <div class="item bord">
+            <h3>social</h3>
+            <p>Shoper is made with love in Warsaw,  </p> 
+            <p>2014 © All rights reserved. El Passion</p>
+            <div class="icon">
+                <div class="around">
+                    <img src="img/twit1.png" alt="twitter">
+                </div>
+                <div class="around">
+                   <img src="img/face.png" alt="facebook">
+                </div>
+                <div class="around">
+                    <img src="img/inst.png" alt="instagram">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="lib/js/common.js"></script>
+</body>
+</html>
